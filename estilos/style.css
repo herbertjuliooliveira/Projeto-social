@@ -5,23 +5,22 @@
     padding: 0px;
     font-family: sans-serif;
 }
-html, body {
-    width: 100vh;
-    height: 100vh;
-    background-color: black;
+body {
+    background: url('../pacote-d013/imagens/fundo-madeira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 main {
     position:relative;
     width: 100vh;
     height: 100vh;
-    background-color: chartreuse;
 }
 #telefone {
     position: absolute;
     width: 311px;
     height: 627px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-image: url('../pacote-d013/imagens/frame-iphone.png');
+    background-size: cover;
+    top: 50%;
+    left: ;
 }
